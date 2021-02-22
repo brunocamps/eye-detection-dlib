@@ -18,4 +18,8 @@ To train our shape predictor on just the eyes, we will parse the XML annotations
 
 By parsing the XML with eyes only landmarks (executed through parse_xml.py), we will generate our eye_predictor.dat by executing train_shape_predictor.py. Our .dat file is a serialized form of our shape predictor that will be often read to predict landmarks. The eyes only .dat file was commited.
 
+# Branches:
+- Master: extracting eye landmarks from live video (through OpenCV)
+- image: extracting landmarks from image
+
 ## Warning: Experimental code with multiple comments.
